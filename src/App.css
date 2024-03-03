@@ -1,0 +1,53 @@
+.container {
+  width: 95%;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.card {
+  border: 1px solid cadetblue;
+  padding: 10px;
+}
+
+.loading {
+  position: absolute;
+  right: 46%;
+}
+
+.filter {
+  text-align: center;
+}
+
+.filter h3 {
+  margin-bottom: 5px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid cadetblue;
+  padding: 0 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.paggination {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+}
