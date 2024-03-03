@@ -11,7 +11,7 @@ function App() {
   const [valueBrand, setValueBrand] = useState(null);
 
   const getFetch = async (action, params, card) => {
-    await fetch('http://api.valantis.store:40000/', {
+    await fetch('https://api.valantis.store:40000/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Auth': token },
       body: JSON.stringify({ action: action, params: params }),
