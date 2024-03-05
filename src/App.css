@@ -1,9 +1,5 @@
 .container {
   width: 95%;
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  padding-top: 20px;
   margin: 0 auto;
 }
 
@@ -31,13 +27,25 @@
   gap: 30px;
 }
 
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
 .btn {
   width: 50px;
   cursor: pointer;
-  border: 1px solid cadetblue;
   padding: 0 5px;
-  margin: 0 auto;
+  margin-right: 10px;
   margin-top: 10px;
+}
+
+.primary {
+  border: 1px solid cadetblue;
+}
+
+.red {
+  border: 1px solid tomato;
 }
 
 .paggination {
@@ -50,4 +58,21 @@
 .prev,
 .next {
   cursor: pointer;
+}
+
+.tabl {
+  display: flex;
+  width: 1200px;
+}
+
+.tabl ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tabl li {
+  display: flex;
+  list-style-type: none;
+  border: 1px solid cadetblue;
+  padding: 5px;
 }
