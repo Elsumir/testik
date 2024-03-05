@@ -14,8 +14,6 @@ export const idRequestAsync = createAsyncThunk(
       return params;
     };
 
-    console.log(postParams());
-
     return await fetch(`${URL_API}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Auth': token },

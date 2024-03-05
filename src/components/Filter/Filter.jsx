@@ -35,7 +35,6 @@ export const Filter = () => {
   };
 
   const params = filterParams();
-  console.log(params);
   return (
     <div className='filter'>
       <h3>Фильтр</h3>
